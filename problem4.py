@@ -1,10 +1,7 @@
-# With our comments 
-import os
+a = 30 
+b = 80
+if (a>b):
+   print("A is greator than b")    
+elif (b>a) : 
+    print("B is greator than a ")
 
-# Ask the user for directory path with name 
-directory_path = '/Temp'
-# It will list all files and folders in the directory
-contents = os.listdir(directory_path)
-# It will print each item
-for item in contents:
- print(item)
